@@ -1,0 +1,76 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-image: url('/pexels-photo-10533155.jpeg');
+    background-size: cover;/*sets the background*/
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    border:1px solid rgba(14, 223, 238, 0.822);
+    padding: 5px 10px;
+    margin: 5px 10px;
+    background-color: aliceblue;
+    transition: 0.7s;
+    
+
+}
+ul li a:hover
+{
+    background-color:rgb(27, 31, 235);
+    color: azure;
+}
+.logo img
+{
+    float:left;
+    width:150px ;
+    height:auto;
+}
+.main
+{
+    max-width: 1400px;
+    margin:auto
+}
+.title {
+    position: absolute;
+    top:40%;
+    left:36%;
+}
+.title h1{
+    color: azure;
+    font-size: 80px;
+}
+.button
+{  position: absolute;
+    top:60%;
+    left:46%;
+}
+.butt {
+    text-decoration: none;
+     padding:15px 20px;
+     border:1px solid rgb(221, 30, 5);
+     transition: 0.6s;
+     color: black;
+     background-color: rgb(30, 152, 223);
+}
+.butt:hover{
+    background-color:rgb(27, 31, 235);
+    color: azure;
+    
+}
